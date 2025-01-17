@@ -1,0 +1,30 @@
+{
+    "Feed": {
+        "name": "CISA ICS Advisories Feed",
+        "provider": "CISA",
+        "url": "https://feed.guardnet.us/files/feed/cisa_ics_advisories.json",
+        "rules": "fetch",
+        "enabled": true,
+        "distribution": "0",
+        "source_format": "misp",
+        "type": "Network",
+        "fixed_event": false,
+        "delta_merge": false,
+        "event_id": "0",
+        "publish": false,
+        "override_ids": false,
+        "headers": null,
+        "caching_enabled": false,
+        "force_to_ids": false,
+        "lookup_visible": false,
+        "delete_local_file": false,
+        "settings": null,
+        "input_source": "network",
+        "orgc_id": "1",
+        "tag_id": "0",
+        "tag_collection_id": "0",
+        "cached_elements": 0,
+        "coverage_by_other_feeds": "0%",
+        "tags": ["CISA", "ICS", "Advisories"]
+    }
+}
